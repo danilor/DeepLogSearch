@@ -17,13 +17,13 @@ with several results files containing only the relevant lines.
 Just execute the following command in your terminal:
 
 ```bash
-npx danilor/deeplogsearch -F C:/server.log --verbose T --search crork --sample 60 --output ./
+npx deeplogsearch -F C:/server.log --verbose T --search crork --sample 60 --output ./
 ```
 
 And to get help:
 
 ```bash
-npx danilor/deeplogsearch --help
+npx deeplogsearch --help
 Usage: DeepLogSearch [options]
 
 Small library to search specific information inside those huge logs files
