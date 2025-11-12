@@ -1,0 +1,38 @@
+{
+  "name": "deeplogsearch",
+  "version": "0.0.1",
+  "description": "Small tool to search for information on huge logs files",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm publish --access public"
+  },
+  "keywords": [
+    "log",
+    "search",
+    "deep",
+    "extract",
+    "logs"
+  ],
+  "author": "Danilo Ramirez Mattey",
+  "license": "MIT",
+  "homepage": "https://github.com/danilor/deeplogsearch#readme",
+  "bugs": {
+    "url": "https://github.com/danilor/deeplogsearch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilor/deeplogsearch.git"
+  },
+
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.2",
+    "fs-extra": "^11.3.2",
+    "linebyline": "^1.3.0",
+    "readline": "^1.3.0"
+  },
+  "bin": {
+    "deeplogsearch": "index.js"
+  }
+}
